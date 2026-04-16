@@ -25,7 +25,7 @@ public class Question03_2 {
 
 		int totalWithTax = (int) (totalPrice * taxRate);
 
-		System.out.println("購入可能枚数は" + reduceTickets + "です。");
+		System.out.println("購入可能枚数は" + reduceTickets + "枚です。");
 		System.out.println("値下げ後の1枚あたりの料金は" + reducedPrice + "です。");
 		System.out.println("合計金額（税抜）は" + totalPrice + "です。");
 		System.out.println("合計金額（税込）は" + totalWithTax + "です。");
