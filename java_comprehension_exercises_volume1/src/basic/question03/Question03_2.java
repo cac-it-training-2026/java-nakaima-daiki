@@ -17,7 +17,7 @@ public class Question03_2 {
 		//最終価格
 		int reducedPrice = basePrice - 200;
 
-		int reduceTickets = tickets - 1;
+		int reduceTickets = --tickets;
 
 		int totalPrice = reducedPrice * reduceTickets;
 
